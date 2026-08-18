@@ -33,7 +33,7 @@ function Shoppage() {
         <div className='mt-10 grid md:grid-cols-3 lg:grid-cols-4 grid-cols-1'>
             {
                 filterproduct.map((data)=>(
-                    <ProductCard key={data.id} product={data}/>              
+                    <ProductCard key={data.id} product={data}/>                                         
                 ))
             }
         </div>
