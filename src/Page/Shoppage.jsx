@@ -31,7 +31,7 @@ function Shoppage() {
       <div className='flex flex-wrap items-center gap-4 mb-8 bg-white p-4 rounded-xl border border-gray-100 shadow-sm'>
         
         {/* Brand Filter */}
-        <div className='w-full sm:w-auto flex-1 min-w-[150px]'>
+        <div className='w-full sm:w-auto flex-1 min-w-37.5'>
           <label className='block text-xs font-medium text-gray-500 mb-1'>Filter by Brand</label>
           <select
             className='w-full border border-gray-300 bg-white text-gray-700 py-2 px-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm'
@@ -46,7 +46,7 @@ function Shoppage() {
         </div>
 
         {/* Category Filter */}
-        <div className='w-full sm:w-auto flex-1 min-w-[150px]'>
+        <div className='w-full sm:w-auto flex-1 min-w-37.5'>
           <label className='block text-xs font-medium text-gray-500 mb-1'>Filter by Category</label>
           <select
             className='w-full border border-gray-300 bg-white text-gray-700 py-2 px-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm'
