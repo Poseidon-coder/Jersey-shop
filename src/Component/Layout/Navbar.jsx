@@ -79,9 +79,7 @@ function Navbar() {
             aria-label="Shopping Cart"
           >
             <FaShoppingCart className="text-sm" />
-            <span className="absolute -top-1 -right-1 bg-emerald-500 text-slate-950 font-bold text-[10px] w-4 h-4 rounded-full flex items-center justify-center">
-              3
-            </span>
+            <span className="absolute -top-1 -right-1 bg-emerald-500 text-slate-950 font-bold text-[10px] w-4 h-4 rounded-full flex items-center justify-center"></span>
           </button>
 
           <Link
